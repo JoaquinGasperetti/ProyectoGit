@@ -710,7 +710,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 12.02, y: 20.16}
+  m_AreaSize: {x: 30, y: 30}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -1452,7 +1452,7 @@ GameObject:
   - component: {fileID: 2037813365}
   - component: {fileID: 2037813364}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Lava
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
