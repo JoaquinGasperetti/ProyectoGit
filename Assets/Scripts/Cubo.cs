@@ -9,6 +9,7 @@ public class Cubo : MonoBehaviour
     public float velocidadMovimiento = 5f;
     public float fuerzaSalto = 10f;
     private Rigidbody rb;
+    private int puntuacion = 0;
 
     void Start()
     {
@@ -30,5 +31,7 @@ public class Cubo : MonoBehaviour
         {
             rb.AddForce(Vector3.up * fuerzaSalto, ForceMode.Impulse);
         }
+
+
     }
 }
