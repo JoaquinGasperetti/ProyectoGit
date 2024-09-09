@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
     public void comenzarnivel(string nivel)
     {
         SceneManager.LoadScene(nivel);
+        Debug.Log("Le dio a jugar");
     }
 
 

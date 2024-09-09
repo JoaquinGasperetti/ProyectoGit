@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Cubo : MonoBehaviour
 {
@@ -33,5 +34,16 @@ public class Cubo : MonoBehaviour
         }
 
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Lava"))
+        {
+            SceneManager.LoadScene("Derrota");
+        } else if (collision.gameObject.CompareTag("Win"))
+        {
+            SceneManager.LoadScene("Victory");
+        }
     }
 }
